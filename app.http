@@ -1,0 +1,47 @@
+//API 1
+
+//Scenerio 1
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+###
+
+//Scenerio 2
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "sruthi",
+  "password": "sru",
+  "name": "Sruthi Dasari",
+  "gender": "female"
+}
+###
+
+//Scenerio 3
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "sruthi",
+  "password": "sru1997",
+  "name": "Sruthi Dasari",
+  "gender": "female"
+}
+###
+
+//API 2
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+###
