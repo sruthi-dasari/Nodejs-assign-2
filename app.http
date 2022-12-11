@@ -29,9 +29,9 @@ POST http://localhost:3000/register/
 Content-Type: application/json
 
 {
-  "username": "sruthi",
-  "password": "sru1997",
-  "name": "Sruthi Dasari",
+  "username": "utpala",
+  "password": "uttu1998",
+  "name": "Utpala Kuchi",
   "gender": "female"
 }
 ###
@@ -44,4 +44,67 @@ Content-Type: application/json
   "username":"JoeBiden",
   "password":"biden@123"
 }
+###
+
+
+//API 3  
+
+GET http://localhost:3000/user/tweets/feed/ 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
+###
+
+//API 4 
+
+GET http://localhost:3000/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
+###
+
+
+//API 5 
+
+GET http://localhost:3000/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
+###
+
+//API 6
+
+GET http://localhost:3000/tweets/5/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
+###
+
+
+//API 7
+
+GET http://localhost:3000/tweets/7/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
+###    
+
+
+//API 8
+
+GET http://localhost:3000/tweets/1/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
+###
+
+//API 9
+
+GET http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
+###
+
+//API 10
+
+POST http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
+Content-Type: application/json
+
+{
+   "tweet": "The Mornings..."
+}
+###
+
+//API 11
+
+DELETE http://localhost:3000/tweets/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY1NzYyMzk2fQ.GK5tPqjZNjUU7OINp3vmaNTv8S2miudFVabEx-nSvvI
 ###
